@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:url"                content="https://bilirubin-risk-chart.hspconsortium.org/" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Bilirubin Risk Chart" />
+    <meta property="og:description"        content="Reduce the incidence of severe hyperbilirubinemia and bilirubin encephalopathy with this interactive clinical application." />
+    <meta property="og:image"              content="https://bilirubin-risk-chart.hspconsortium.org/images/interface_example_small.png" />
+    <script type="application/ld+json">
+        {
+          "@context" : "http://schema.org",
+          "@type" : "Webpage",
+          "name" : "Bilirubin Risk Chart",
+          "author" : {
+            "@type" : "Organization",
+            "name" : "HSPC"
+          },
+          "image" : "https://bilirubin-risk-chart.hspconsortium.org/images/interface_example_small.png",
+          "description": "Reduce the incidence of severe hyperbilirubinemia and bilirubin encephalopathy with this interactive clinical application.",
+          "url" : "https://bilirubin-risk-chart.hspconsortium.org/"
+        }
+    </script>
+    <title>Bilirubin Risk Chart</title>
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div class="navbar_index">
+        <img src="images/hspc-company-logo.png">
+        <div class="index_button">
+            <a href="https://gallery.hspconsortium.org/#/app-gallery" target="_blank">
+                <button>Open in the HSPC Gallery</button>
+            </a>
+        </div>
+        <div class="index_header">Bilirubin Risk Chart</div>
+    </div>
+    <div class="index_outside_navbar">
+        <div class="index_body">
+            <div class="screenshot">
+                <a class="zoombox" href="#image">
+                    <img src="images/interface_example.png">
+                </a>
+            </div>
+            <div class="index_body_side">
+                <p>
+                    The Intermountain Healthcare Bilirubin Risk Chart App is based on Intermountain’s HELP2 application of the same name.
+                    This app is for demonstration purposes only and is not approved for clinical use.
+                    It was created to highlight the concept of the HSPC model, which creates a method of sharing clinical applications currently locked up in a single organization or EHR vendor and make it available to all healthcare providers.
+                </p>
+                <p>
+                    Jaundice occurs in most newborn infants. Most jaundice is benign, but because of the potential toxicity of bilirubin, newborn infants must be monitored to identify those who might develop severe hyperbilirubinemia and, in rare cases, acute bilirubin encephalopathy or kernicterus.
+                    Although kernicterus should almost always be preventable, cases continue to occur.
+                    The focus of this app is to reduce the incidence of severe hyperbilirubinemia and bilirubin encephalopathy while minimizing the risks of unintended harm such as maternal anxiety, decreased breastfeeding, and unnecessary costs or treatment.
+                </p>
+                <p>
+                    By overlaying bilirubin [Mass/volume] results over a time-based risk chart, clinicians are presented with a visual representation of the results and associated criticality zones.
+                    By viewing the results in this way, the clinician can determine the best course of action based on the recommended intervention for the criticality of the result.
+                </p>
+                <div class="index_body_side_specs">
+                    <div class="specs_instance">
+                        Designed for
+                        <div class="specs_instance_def">Clinicians</div>
+                    </div>
+                    <div class="specs_instance">
+                        FHIR Compatibility
+                        <div class="specs_instance_def">DSTU 3</div>
+                    </div>
+                    <div class="specs_instance">
+                        Specialties
+                        <div class="specs_instance_def">Pediatrics</div>
+                    </div>
+                    <div class="specs_instance">
+                        Source code at: <a href="https://bitbucket.org/hspconsortium/bilirubin-risk-chart">https://bitbucket.org/hspconsortium/bilirubin-risk-chart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="zoombox-target" id="image">
+        <img src="images/interface_example.png">
+        <a class="zoombox-close" href=""></a>
+    </div>
+
+</body>
+</html>
