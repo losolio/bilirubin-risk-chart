@@ -9,7 +9,7 @@
     "port": "8086"
   },
   "dependencies": {
-    "serve": "^5.2.1"
+    "serve": "^10.1.2"
   },
   "devDependencies": {
     "http-server": "^0.10.0"
