@@ -12,7 +12,7 @@
     "serve": "^5.2.1"
   },
   "devDependencies": {
-    "http-server": "^0.10.0"
+    "http-server": "^14.1.1"
   },
   "config": {
     "port": "8086",
